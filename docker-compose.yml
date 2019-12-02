@@ -13,6 +13,7 @@ services:
       xpack.security.enabled: "false"
       xpack.watcher.enabled: "false"
       xpack.monitoring.enabled: "true"
+      xpack.ml.enabled: "false"
       ES_JAVA_OPTS: -Xms256m -Xmx256m
     ulimits:
       memlock:
@@ -37,6 +38,7 @@ services:
       xpack.security.enabled: "false"
       xpack.watcher.enabled: "false"
       xpack.monitoring.enabled: "true"
+      xpack.ml.enabled: "false"
       ES_JAVA_OPTS: -Xms256m -Xmx256m
     ulimits:
       memlock:
@@ -61,6 +63,7 @@ services:
       xpack.security.enabled: "false"
       xpack.watcher.enabled: "false"
       xpack.monitoring.enabled: "true"
+      xpack.ml.enabled: "false"
       ES_JAVA_OPTS: -Xms256m -Xmx256m
     ulimits:
       memlock:
